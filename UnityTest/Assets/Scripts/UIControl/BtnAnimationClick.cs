@@ -13,6 +13,6 @@ public class BtnAnimationClick : MonoBehaviour {
     }
     void OnClick()
     {
-        target.GetComponent<Animation>().animation.Play(clipName);
+        target.GetComponent<Animation>().Play(clipName);
     }
 }
