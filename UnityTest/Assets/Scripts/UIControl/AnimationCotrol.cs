@@ -14,4 +14,8 @@ public class AnimationCotrol : MonoBehaviour {
     {
         AssetMgr.OpenAnimationState(id, this.gameObject);
     }
+    void OnDrag(Vector2 vect)
+    {
+        Debug.Log(vect);
+    }
 }
