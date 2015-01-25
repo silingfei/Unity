@@ -31,7 +31,6 @@ public class AnimationCotrol : MonoBehaviour {
     }
     void OnMouseDrag()
     {
-        //this.gameObject.transform.localRotation = Quaternion.Euler(0f, -0.5f * speed, 0f) * this.gameObject.transform.localRotation;
         mTrans.localRotation = Quaternion.Euler(0f, -0.5f * speed, 0f) * mTrans.localRotation;
     }
 
