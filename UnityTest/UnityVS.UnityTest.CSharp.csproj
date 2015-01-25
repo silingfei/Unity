@@ -187,7 +187,10 @@
     <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
     <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
     <Compile Include="Assets\Scripts\GameMgr\AssetMgr.cs" />
+    <Compile Include="Assets\Scripts\UIControl\AnimationCotrol.cs" />
+    <Compile Include="Assets\Scripts\UIControl\BtnAnimationClick.cs" />
     <Compile Include="Assets\Scripts\UIControl\PlayerControl.cs" />
+    <Compile Include="Assets\Scripts\UIControl\UIMainMgr.cs" />
     <None Include="Assets\Fantasy Enemy Pack 01\Crawling Bug\Read me.txt" />
     <None Include="Assets\Fantasy Enemy Pack 01\Flower Monster\Read me.txt" />
     <None Include="Assets\Fantasy Enemy Pack 01\Magma Demon\Read me.txt" />

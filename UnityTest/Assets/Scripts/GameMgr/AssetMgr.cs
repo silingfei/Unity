@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 public class AssetMgr
 {
@@ -13,4 +14,20 @@ public class AssetMgr
     public const string MagmaDemon_Green = "PlayerPrefabs/MagmaDemon-Green";
     public const string MagmaDemon_Purple = "PlayerPrefabs/MagmaDemon-Purple";
     public const string MagmaDemon_Orange = "PlayerPrefabs/MagmaDemon-Orange";
+
+    //============UI Prefab Path==================
+    public const string AnimationStatePath = "PlayerPrefabs/BtnAnimationState";
+
+
+
+    //===========Event===================
+    public static event Func<int, GameObject, bool> OpenAnimationStateHandler;
+    public static bool OpenAnimationState(int id, GameObject target)
+    {
+        if (OpenAnimationStateHandler != null)
+        {
+            return OpenAnimationStateHandler(id, target);
+        }
+        return false;
+    }
 }
