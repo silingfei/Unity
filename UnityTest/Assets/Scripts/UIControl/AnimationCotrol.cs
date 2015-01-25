@@ -53,7 +53,7 @@ public class AnimationCotrol : MonoBehaviour {
     }
     public void TestChange(string msg)
     {
-        Debug.Log("this is github change Test Func");
+        Debug.Log("this is github change Test Func 1234567890");
     }
     public void AddGitMsg()
     { 
