@@ -24,6 +24,7 @@ public class AnimationCotrol : MonoBehaviour {
     {
         this.id = id;
     }
+    
 
     void OnMouseDown()
     {
@@ -50,5 +51,9 @@ public class AnimationCotrol : MonoBehaviour {
             mrota = Vector2.Lerp(mrota, new Vector2(x, y), delta * 50f);
             mTrans.localRotation = mQuater * Quaternion.Euler(-mrota.y * degrees.y, mrota.x * degrees.x, 0f);
         }
+    }
+    public void TestChange(string msg)
+    {
+        Debug.Log("this is github change Test Func")
     }
 }
